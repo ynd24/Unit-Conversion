@@ -126,7 +126,8 @@ speed = {
 # initial User Input
 init_input = input("What conversion woudl you like to do, Temperature, Mass, Speed, Length, or Time: ")
 init_input.lower()
-#print(init_input, type(init_input))
+
+
 
 
 if (init_input.lower() == 'temperature'):
@@ -194,3 +195,6 @@ elif init_input.lower() == 'speed':
 
     
     Speed(usr_inp1, value1)
+
+else:
+    print('Sorry, your input caused me to crash :(')
